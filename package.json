@@ -1,0 +1,27 @@
+{
+  "name": "webscrape-an-offer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/App.js",
+    "debug": "node --inspect src/App.js",
+    "gimme-docs": "npx jsdoc-to-markdown --files './src/**/*.js' > docs.md && node generateDocs.js"
+  },
+  "author": "zarehba",
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "exceljs": "^4.2.0",
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.3.0",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3"
+  }
+}
