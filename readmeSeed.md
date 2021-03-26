@@ -1,4 +1,4 @@
-# webscrape-an-offer
+# webscrape-offers
 
 ## What does this app do?
 

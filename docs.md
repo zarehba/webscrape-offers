@@ -93,7 +93,7 @@ Configuration file.
 <a name="module_Config.DATA_PATH"></a>
 
 ### Config.DATA\_PATH
-Filepath string to log folder
+Filepath string to offers folder
 
 **Kind**: static property of [<code>Config</code>](#module_Config)  
 **Category**: folders and files configuration  
@@ -410,7 +410,7 @@ Accepts URL strings
 ```js
 {
  olx: [
-   'https://www.olx.pl/nieruchomosci/mieszkania/?search%5Bfilter_enum_rooms%5D%5B0%5D=one&view=galleryWide',
+   'https://www.olx.pl/nieruchomosci/mieszkania/sprzedaz/q-Warszawa/?search%5Bfilter_float_price%3Ato%5D=600000&search%5Bfilter_float_price_per_m%3Ato%5D=13000&search%5Bfilter_enum_floor_select%5D%5B0%5D=floor_1&search%5Bfilter_enum_floor_select%5D%5B1%5D=floor_2&search%5Bfilter_enum_floor_select%5D%5B2%5D=floor_3&search%5Bfilter_enum_floor_select%5D%5B3%5D=floor_4&search%5Bfilter_enum_floor_select%5D%5B4%5D=floor_5&search%5Bfilter_enum_floor_select%5D%5B5%5D=floor_6&search%5Bfilter_enum_floor_select%5D%5B6%5D=floor_7&search%5Bfilter_enum_floor_select%5D%5B7%5D=floor_8&search%5Bfilter_enum_floor_select%5D%5B8%5D=floor_9&search%5Bfilter_enum_floor_select%5D%5B9%5D=floor_10&search%5Bfilter_enum_floor_select%5D%5B10%5D=floor_11&search%5Bfilter_enum_floor_select%5D%5B11%5D=floor_17&search%5Bfilter_float_m%3Ato%5D=50&search%5Bfilter_float_m%3Afrom%5D=20&search%5Bfilter_enum_rooms%5D%5B0%5D=one&search%5Bfilter_enum_rooms%5D%5B1%5D=two&view=galleryWide&page=',
  ]
 }
 ```
